@@ -6,6 +6,7 @@ Sphinxインストール
 --------------------------
 
 .. code-block::
+
   pip install sphinx
 
 
