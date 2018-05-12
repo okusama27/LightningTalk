@@ -16,7 +16,7 @@
   
 * 言語思想
 
-  *　The Zen of Python
+  * The Zen of Python
   
 * 言語仕様ってどうやって決まるの？
 
