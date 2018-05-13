@@ -18,15 +18,9 @@ README
 
   * 産みの親
   * はじまり
+  * どんな使われ方？ 
+  * Pythonバージョン問題
 
-    * Python0.9, 2
-    * Python3
-
-  * どんな使われ方？
-
-  * 広がり
-  * 未来
-  
 * 言語思想
 
   * The Zen of Python
