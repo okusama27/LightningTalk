@@ -53,7 +53,7 @@ PyLadies Tokyo
 `PyCon JP 2018 <https://www.pycon.jp/#pycon-jp-2018>`_ のテーマをお借りしました。
 
 PyCon JP は日本で開催される、プログラミング言語 Python に関する国際カンファレンスです。
-毎年１０００人規模で行われています。
+毎年、1000人規模で行われています。
 
 今年は、2018/9/15 〜 9/18の間で開催されます。
 
@@ -83,6 +83,8 @@ Pythonソフトウェア財団、PSF（ `PythonSoftwareFoundation <https://www.p
 
 Python関連の知的所有権を所有するために作られた非営利団体。
 Pythonのリリースはすべて `オープンソース <https://ja.wikipedia.org/wiki/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BD%E3%83%BC%E3%82%B9%E3%81%AE%E5%AE%9A%E7%BE%A9>`_ です。
+
+参照: `歴史とライセンス <https://docs.python.org/ja/3/license.html>`_
 
 .. Pythonは1990年代初頭に、オランダのStichtingMathematischCentrum(CWI。http://www.cwi.nl/参照)にいたGuidovanRossumにより、
    ABCという言語の後継として創造された。
@@ -256,8 +258,8 @@ PEPワークフロー 1
 アイデア
 --------------
 
-Pythonの言語に関するアイデアは特定のメーリングリスト( python-ideas@python.org 、python-list@python.org)で議論されている。
-アイデアを思いついたら、メーリングリストに投げて議論します。
+Pythonの言語に関するアイデアは特定のメーリングリスト( python-ideas@python.org 、python-list@python.org)や `sigs <https://www.python.org/community/sigs/>`_ などで議論されている。
+アイデアを思いついたら、メーリングリストやsigsに投げて議論します。
 
 Draft(草案)
 --------------
@@ -266,6 +268,14 @@ PEP編集者が承認するとPEP番号が割り当てられます。ステー�
 Accepted（受理）、Rejected（却下）
 ----------------------------------------------------------------------
 グイドや、彼が選んだコンサルタントにレビューされて、"Accepted"（受理）、"Rejected"（却下）、差し戻しになります。
+PEPのドラフトの最終決裁者は、BDFL(慈悲深き終身独裁者, Python作者のGuido van Rossum)です。忙しいときは他の人にBDFLの権利を移譲したりします。
+
+参照: https://mail.python.org/pipermail/python-dev/2017-December/151054.html
+
+.. topic::
+
+  > Reminder: INADA Naoki was nominated as the BDFL-Delegate.
+  「稲田さん, 代わりによろしく」と
 
 PEPワークフロー 2
 ======================
@@ -273,15 +283,27 @@ PEPワークフロー 2
 
 Final（確定）
 --------------
-受理されて、 `リファレンス実装（Reference implementation） <https://ja.wikipedia.org/wiki/%E3%83%AA%E3%83%95%E3%82%A1%E3%83%AC%E3%83%B3%E3%82%B9%E5%AE%9F%E8%A3%85>`_ が完成したら、"Final"（確定）になります。
+承認されて、 `リファレンス実装（Reference implementation） <https://ja.wikipedia.org/wiki/%E3%83%AA%E3%83%95%E3%82%A1%E3%83%AC%E3%83%B3%E3%82%B9%E5%AE%9F%E8%A3%85>`_ が完成し、main source code repositoryに取り込まれたら、"Final"（確定）になります。
 
 
 PEPのステータスの移行可能な経路
 ------------------------------------------
 
+流れはこんな感じだそうですが、違う場合もあるそうです。
+
 .. image:: _static/images/pep_image.png
 
+図は、 `PEP1 <https://www.python.org/dev/peps/pep-0001/>`_ より参照。
+
 Deferred（延期）、Withdrawn（取り下げ）、Active（完成させることを意図していない。PEP1など）などに設定されることもあります。
+
+日本人のPEPへの貢献
+======================
+日本人にもPEPを作り確定した方がいらっしゃいます。
+
+`Atsuo Ishimoto <https://twitter.com/atsuoishimoto>`_ さんの `PEP 3138 -- String representation in Python 3000 <https://www.python.org/dev/peps/pep-3138/>`_
+
+`INADA Naoki <https://twitter.com/methane>`_ さんの `PEP 545 -- Python Documentation Translations <https://www.python.org/dev/peps/pep-0545/>`_
 
 
 さいごに
@@ -291,4 +313,6 @@ Deferred（延期）、Withdrawn（取り下げ）、Active（完成させるこ
 
 これまでは、Pythonコードのコーディング規約が定めてある `PEP8 <https://www.python.org/dev/peps/pep-0008/>`_ しか読んだことがなかったので、これからはもうちょっと読んでいこうと思います。
 
-また、KLabの `INADAさん <https://twitter.com/methane>`_ が、定期的に `最近のPython <http://dsas.blog.klab.org/archives/2018-04/python-dev.html>`_ として、PEPの変更点などを紹介してくれています。
+また、`INADA Naoki <https://twitter.com/methane>`_ さんが、定期的に `最近のPython <http://dsas.blog.klab.org/archives/2018-04/python-dev.html>`_ として、PEPの変更点などを紹介してくれています。
+
+この資料をレビューしてくださった、`Atsuo Ishimoto <https://twitter.com/atsuoishimoto>`_ さん、 `tomo <https://twitter.com/cocoatomo>`_ さん、ありがとうございます。
