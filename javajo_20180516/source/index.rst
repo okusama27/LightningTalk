@@ -265,6 +265,9 @@ Draft(草案)
 --------------
 PEP編集者が承認するとPEP番号が割り当てられます。ステータスは"Draft"(草案)になります。
 
+PEPワークフロー 2
+======================
+
 Accepted（受理）、Rejected（却下）
 ----------------------------------------------------------------------
 グイドや、彼が選んだコンサルタントにレビューされて、"Accepted"（受理）、"Rejected"（却下）、差し戻しになります。
@@ -272,14 +275,10 @@ PEPのドラフトの最終決裁者は、BDFL(慈悲深き終身独裁者, Pyth
 
 参照: https://mail.python.org/pipermail/python-dev/2017-December/151054.html
 
-.. topic::
+.. topic:: 例
 
-  > Reminder: INADA Naoki was nominated as the BDFL-Delegate.
-  「稲田さん, 代わりによろしく」と
-
-PEPワークフロー 2
-======================
-
+   Reminder: INADA Naoki was nominated as the BDFL-Delegate.
+   「稲田さん, 代わりによろしく」
 
 Final（確定）
 --------------
@@ -287,7 +286,7 @@ Final（確定）
 
 
 PEPのステータスの移行可能な経路
-------------------------------------------
+=================================
 
 流れはこんな感じだそうですが、違う場合もあるそうです。
 
@@ -301,13 +300,13 @@ Deferred（延期）、Withdrawn（取り下げ）、Active（完成させるこ
 ======================
 日本人にもPEPを作り確定した方がいらっしゃいます。
 
-`Atsuo Ishimoto <https://twitter.com/atsuoishimoto>`_ さんの `PEP 3138 -- String representation in Python 3000 <https://www.python.org/dev/peps/pep-3138/>`_
+* `Atsuo Ishimoto <https://twitter.com/atsuoishimoto>`_ さんの `PEP 3138 -- String representation in Python 3000 <https://www.python.org/dev/peps/pep-3138/>`_
 
-`INADA Naoki <https://twitter.com/methane>`_ さんの `PEP 545 -- Python Documentation Translations <https://www.python.org/dev/peps/pep-0545/>`_
+* `INADA Naoki <https://twitter.com/methane>`_ さんの `PEP 545 -- Python Documentation Translations <https://www.python.org/dev/peps/pep-0545/>`_
 
 
 さいごに
-==========================
+======================
 
 私もこの発表のためにPEPを読みました。
 
