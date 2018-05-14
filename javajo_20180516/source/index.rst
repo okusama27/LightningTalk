@@ -11,6 +11,14 @@
 | https://github.com/okusama27
 
 
+OverView
+==============
+* Pythonの歴史
+* Pythonの思想
+* Pythonの特徴
+* Pythonの言語仕様の決め方
+
+
 お前誰よ（Who am I?）
 ============================
 
