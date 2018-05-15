@@ -26,15 +26,11 @@ OverView
    :width: 50px
 
 
-大村亀子といいます。 `@okusama27 <https://twitter.com/okusama27>`_
+大村亀子（ `@okusama27 <https://twitter.com/okusama27>`_ ）といいます。 
 
 BeProudという会社で、Pythonオンライン学習サービスを作っています。
 
 I'm Kameko Ohmura, please call me "kame-chan".
-
-I'm working at `BeProud, inc. <https://www.beproud.jp/>`_
-
-I'm developing Python web-learning service
 
 .. image:: _static/images/logo_beproud.png
    :width: 200px
@@ -57,8 +53,8 @@ PyCon JP は日本で開催される、プログラミング言語 Python に関
 
 今年は、2018/9/15 〜 9/18の間で開催されます。
 
-歴史
-=======
+Pythonの歴史
+=====================
 
 はじまり
 ==============
@@ -84,7 +80,7 @@ Pythonソフトウェア財団、PSF（ `PythonSoftwareFoundation <https://www.p
 Python関連の知的所有権を所有するために作られた非営利団体。
 Pythonのリリースはすべて `オープンソース <https://ja.wikipedia.org/wiki/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BD%E3%83%BC%E3%82%B9%E3%81%AE%E5%AE%9A%E7%BE%A9>`_ です。
 
-参照: `歴史とライセンス <https://docs.python.org/ja/3/license.html>`_
+参照: `Python公式ドキュメント: 歴史とライセンス <https://docs.python.org/ja/3/license.html>`_
 
 .. Pythonは1990年代初頭に、オランダのStichtingMathematischCentrum(CWI。http://www.cwi.nl/参照)にいたGuidovanRossumにより、
    ABCという言語の後継として創造された。
@@ -131,10 +127,10 @@ Python2.xとの後方互換が失われていることでPython2系から気軽�
 .. RedHat Enterprise Linuxでは、Python2.7を2024年までサポートすることが決まっている。
 
 
-Pythonは母体となる企業、営利団体もなしに長期間に渡って開発を継続し、安定したリリースを続けています。
+**Pythonは母体となる企業、営利団体もなしに長期間に渡って開発を継続し、安定したリリースを続けています。**
 
-思想
-=====
+Pythonの思想
+==========================
 
 キャッチフレーズ
 ==========================
@@ -165,10 +161,10 @@ The Zen of Python, by Tim Peters（抜粋）
 
 （略）
 
-私も翻訳してみました。 `The Zen of Python <http://kamekokamekame.net/python/2017/12/01/article.html>`_
+私も翻訳してみました。 `The Zen of Python - 鉄は熱いうちに打て <http://kamekokamekame.net/python/2017/12/01/article.html>`_
 
-特徴
-=============
+Pythonの特徴
+==========================
 
 読みやすい
 ================
@@ -182,10 +178,12 @@ The Zen of Python, by Tim Peters（抜粋）
 * Python利用者が全体で守るコーディング規約 `PEP8 <http://pep8-ja.readthedocs.io/ja/latest/>`_ が定められています。
 
 
-初心者のうちは「人が書いたコードが読みやすい」は学習しやすい要因の1つです。
+**初心者のうちは「人が書いたコードが読みやすい」は学習しやすい要因の1つです。**
 
 その他
 ===========
+
+以下のような言語です。
 
 * 手続き型言語
 * オブジェクト指向プログラミング
@@ -203,6 +201,8 @@ The Zen of Python, by Tim Peters（抜粋）
 利用
 ========
 
+いろいろなところで利用されています。
+
 * Googleなどの欧米の企業で使われている
 * 適応範囲はWebプログラミング、GUIベースのアプリケーション、CAD、3Dモデリング、数式処理など幅広い分野に及ぶ。
 * スクリプトとして利用される。
@@ -213,7 +213,7 @@ The Zen of Python, by Tim Peters（抜粋）
 転載: `Wikipedia <https://ja.wikipedia.org/wiki/Python>`_
 
 
-言語仕様の決め方
+Pythonの言語仕様の決め方
 ==========================
 
 PEP
@@ -229,26 +229,24 @@ PEPについて詳しくは、 `PEP 1 -- PEP Purpose and Guidelines <https://www
 
 また、 `PEP 0 -- Index of Python Enhancement Proposals (PEPs) <https://www.python.org/dev/peps/>`_ を参照すると、PEPの歴史を一覧で参照できます。
 
-PEPワークフロー 1
+PEPワークフロー
 ======================
 
 アイデア
---------------
+======================
 
 Pythonの言語に関するアイデアは特定のメーリングリスト( python-ideas@python.org 、python-list@python.org)や `SIG's <https://www.python.org/community/sigs/>`_ などで議論されている。
 アイデアを思いついたら、メーリングリストやSIG'sに投げて議論します。
 
 Draft(草案)
---------------
+======================
 PEP編集者が承認するとPEP番号が割り当てられます。ステータスは"Draft"(草案)になります。
 
-PEPワークフロー 2
-======================
-
 Accepted（受理）、Rejected（却下）
-----------------------------------------------------------------------
+============================================
 グイドや、彼が選んだコンサルタントにレビューされて、"Accepted"（受理）、"Rejected"（却下）、差し戻しになります。
-PEPのドラフトの最終決裁者は、BDFL(慈悲深き終身独裁者, Python作者のGuido van Rossum)です。忙しいときは他の人にBDFLの権利を移譲したりします。
+PEPのドラフトの最終決裁者は、BDFL(慈悲深き終身独裁者, グイドさんのこと)です。
+忙しいときは他の人にBDFLの権利を移譲したりします。
 
 参照: https://mail.python.org/pipermail/python-dev/2017-December/151054.html
 
@@ -258,7 +256,7 @@ PEPのドラフトの最終決裁者は、BDFL(慈悲深き終身独裁者, Pyth
    「稲田さん, 代わりによろしく」
 
 Final（確定）
---------------
+======================
 承認されて、 `リファレンス実装（Reference implementation） <https://ja.wikipedia.org/wiki/%E3%83%AA%E3%83%95%E3%82%A1%E3%83%AC%E3%83%B3%E3%82%B9%E5%AE%9F%E8%A3%85>`_ が完成し、main source code repositoryに取り込まれたら、"Final"（確定）になります。
 
 
@@ -292,3 +290,15 @@ Deferred（延期）、Withdrawn（取り下げ）、Active（完成させるこ
 また、`INADA Naoki <https://twitter.com/methane>`_ さんが、定期的に `最近のPython <http://dsas.blog.klab.org/archives/2018-04/python-dev.html>`_ として、PEPの変更点などを紹介してくれています。
 
 この資料をレビューしてくださった、`Atsuo Ishimoto <https://twitter.com/atsuoishimoto>`_ さん、 `tomo <https://twitter.com/cocoatomo>`_ さん、ありがとうございます。
+
+リンク一覧
+================
+* PSF: https://www.python.org/psf/
+* PEP: https://github.com/python/peps
+* 最近のPython: http://dsas.blog.klab.org/archives/2018-04/python-dev.html
+
+Twitter
+----------
+* INADA Naoki(@methane): https://twitter.com/methane
+* Atsuo Ishimoto(@atsuoishimoto): https://twitter.com/atsuoishimoto
+* tomo(@cocoatomo): https://twitter.com/cocoatomo
