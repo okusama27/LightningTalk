@@ -1,0 +1,260 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>広がるPython（Python Big Bang）</title>
+    <meta charset='utf-8'>
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/translations.js"></script>
+  </head>
+  <body style='display: none'>
+    
+  <div class="section" id="python-python-big-bang">
+<h1>広がるPython（Python Big Bang）<a class="headerlink" href="#python-python-big-bang" title="このヘッドラインへのパーマリンク">¶</a></h1>
+<div class="line-block">
+<div class="line">Kameko Ohmura</div>
+<div class="line"><a class="reference external" href="https://github.com/okusama27">https://github.com/okusama27</a></div>
+</div>
+<div class="section" id="overview">
+<h2>OverView<a class="headerlink" href="#overview" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li>Pythonの歴史</li>
+<li>Pythonの思想</li>
+<li>Pythonの特徴</li>
+<li>Pythonの言語仕様の決め方</li>
+</ul>
+</div>
+<div class="section" id="who-am-i">
+<h2>お前誰よ（Who am I?）<a class="headerlink" href="#who-am-i" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<a class="reference internal image-reference" href="_images/cow.png"><img alt="_images/cow.png" src="_images/cow.png" style="width: 50px;" /></a>
+<p>大村亀子（ <a class="reference external" href="https://twitter.com/okusama27">&#64;okusama27</a> ）といいます。</p>
+<p>BeProudという会社で、Pythonオンライン学習サービスを作っています。</p>
+<p>I'm Kameko Ohmura, please call me &quot;kame-chan&quot;.</p>
+<a class="reference internal image-reference" href="_images/logo_beproud.png"><img alt="_images/logo_beproud.png" src="_images/logo_beproud.png" style="width: 200px;" /></a>
+</div>
+<div class="section" id="pyladies-tokyo">
+<h2>PyLadies Tokyo<a class="headerlink" href="#pyladies-tokyo" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>世界中にある女性のPython利用者をつなぐ団体。</p>
+<p>スタッフやっています。</p>
+<img alt="_images/pyladies_logo.png" src="_images/pyladies_logo.png" />
+</div>
+<div class="section" id="python">
+<h2>タイトル「広がるPython」<a class="headerlink" href="#python" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p><a class="reference external" href="https://www.pycon.jp/#pycon-jp-2018">PyCon JP 2018</a> のテーマをお借りしました。</p>
+<p>PyCon JP は日本で開催される、プログラミング言語 Python に関する国際カンファレンスです。
+毎年、1000人規模で行われています。</p>
+<p>今年は、2018/9/15 〜 9/18の間で開催されます。</p>
+</div>
+<div class="section" id="id1">
+<h2>Pythonの歴史<a class="headerlink" href="#id1" title="このヘッドラインへのパーマリンク">¶</a></h2>
+</div>
+<div class="section" id="id2">
+<h2>はじまり<a class="headerlink" href="#id2" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<div class="section" id="id3">
+<h3>1989年<a class="headerlink" href="#id3" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<p>オランダ人の <a class="reference external" href="https://en.wikipedia.org/wiki/Guido_van_Rossum">Guido van Rossum</a> がクリスマス休暇中に暇だったので開発を開始したのがはじまり。</p>
+<p>イギリスで大人気だったテレビ番組「空飛ぶモンティ・パイソン」（Monty Python's Flying Circus）から取って、Pythonと名付けた。</p>
+<a class="reference internal image-reference" href="_images/python-logo-master-v3-TM.png"><img alt="_images/python-logo-master-v3-TM.png" src="_images/python-logo-master-v3-TM.png" style="width: 300px;" /></a>
+</div>
+<div class="section" id="id4">
+<h3>2001年<a class="headerlink" href="#id4" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<p>Pythonソフトウェア財団、PSF（ <a class="reference external" href="https://www.python.org/psf/">PythonSoftwareFoundation</a> ）が組織される。</p>
+<p>Python関連の知的所有権を所有するために作られた非営利団体。
+Pythonのリリースはすべて <a class="reference external" href="https://ja.wikipedia.org/wiki/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BD%E3%83%BC%E3%82%B9%E3%81%AE%E5%AE%9A%E7%BE%A9">オープンソース</a> です。</p>
+<p>参照: <a class="reference external" href="https://docs.python.org/ja/3/license.html">Python公式ドキュメント: 歴史とライセンス</a></p>
+</div>
+</div>
+<div class="section" id="id7">
+<h2>バージョン<a class="headerlink" href="#id7" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<div class="section" id="x">
+<h3>1991年: バージョン 0.9x<a class="headerlink" href="#x" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<p>Guidoさんが、ソースコードを公開</p>
+</div>
+<div class="section" id="id8">
+<h3>1994年: バージョン 1.x<a class="headerlink" href="#id8" title="このヘッドラインへのパーマリンク">¶</a></h3>
+</div>
+<div class="section" id="id9">
+<h3>2000年: バージョン 2.x<a class="headerlink" href="#id9" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<p>サポートは2020年までと発表されている。（ <a class="reference external" href="https://www.python.org/dev/peps/pep-0404/">PEP404</a> ）</p>
+</div>
+<div class="section" id="id10">
+<h3>2008年: バージョン 3.x<a class="headerlink" href="#id10" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<p>言語を掃除してリフレッシュすることが目的としてリリースされた。</p>
+<p>Python2.xとの後方互換が失われていることでPython2系から気軽にPython3系に移行できない問題がある。</p>
+<p><strong>Pythonは母体となる企業、営利団体もなしに長期間に渡って開発を継続し、安定したリリースを続けています。</strong></p>
+</div>
+</div>
+<div class="section" id="id11">
+<h2>Pythonの思想<a class="headerlink" href="#id11" title="このヘッドラインへのパーマリンク">¶</a></h2>
+</div>
+<div class="section" id="id12">
+<h2>キャッチフレーズ<a class="headerlink" href="#id12" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>1990年台に使われていたPythonのキャッチフレーズ</p>
+<p><strong>Python gets the job done</strong></p>
+<p>「Pythonは仕事を終らせる」という意味。</p>
+<p>現実に処理しなければいけない仕事を片付けるために用意された実用品。
+Pythonは華やかさよりも、シンプルな機能美を信条としています。</p>
+</div>
+<div class="section" id="the-zen-of-python">
+<h2>The Zen of Python<a class="headerlink" href="#the-zen-of-python" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>対話型インタプリタに <code class="docutils literal notranslate"><span class="pre">import</span> <span class="pre">this</span></code> と打つと、Pythonの哲学が表示される。</p>
+<div class="section" id="the-zen-of-python-by-tim-peters">
+<h3>The Zen of Python, by Tim Peters（抜粋）<a class="headerlink" href="#the-zen-of-python-by-tim-peters" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<ul class="simple">
+<li>醜いより美しい方がいい。</li>
+<li>暗黙より明示の方がいい。</li>
+<li>複雑より単純の方がいい。</li>
+<li>読みやすさは大切だ。</li>
+<li>実用性は純粋性に勝る。</li>
+<li>仕事をするための当然の方法はひとつある。</li>
+</ul>
+<p>（略）</p>
+<p><a class="reference external" href="https://www.python.org/dev/peps/pep-0020/">PEP 20 -- The Zen of Python</a> にまとまっています。</p>
+<p>私も翻訳してみました。 <a class="reference external" href="http://kamekokamekame.net/python/2017/12/01/article.html">The Zen of Python - 鉄は熱いうちに打て</a></p>
+</div>
+</div>
+<div class="section" id="id14">
+<h2>Pythonの特徴<a class="headerlink" href="#id14" title="このヘッドラインへのパーマリンク">¶</a></h2>
+</div>
+<div class="section" id="id15">
+<h2>読みやすい<a class="headerlink" href="#id15" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li>見ただけで意味が理解できるように、普通のアルファベットの英単語で書ける様になっている。</li>
+<li>見ただけで意味がわからない記号はなるべく使わない</li>
+<li>インデントを正しく付けないと動かないので、誰が書いても同じようなコードになり読みやすいです。</li>
+</ul>
+<img alt="_images/python_code.png" src="_images/python_code.png" />
+<ul class="simple">
+<li>Python利用者が全体で守るコーディング規約 <a class="reference external" href="http://pep8-ja.readthedocs.io/ja/latest/">PEP8</a> が定められています。</li>
+</ul>
+<p><strong>初心者のうちは「人が書いたコードが読みやすい」は学習しやすい要因の1つです。</strong></p>
+</div>
+<div class="section" id="id16">
+<h2>その他<a class="headerlink" href="#id16" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>以下のような言語です。</p>
+<ul class="simple">
+<li>手続き型言語</li>
+<li>オブジェクト指向プログラミング</li>
+<li>動的型システム</li>
+<li>インタープリタ</li>
+<li>オープンソース</li>
+</ul>
+</div>
+<div class="section" id="id17">
+<h2>利用<a class="headerlink" href="#id17" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>いろいろなところで利用されています。</p>
+<ul class="simple">
+<li>Googleなどの欧米の企業で使われている</li>
+<li>適応範囲はWebプログラミング、GUIベースのアプリケーション、CAD、3Dモデリング、数式処理など幅広い分野に及ぶ。</li>
+<li>スクリプトとして利用される。</li>
+<li>NumPy、SciPyなどの高速な数値計算ライブラリの存在により、科学技術コンピューティングにもよく用いられる。</li>
+<li>機械学習などのライブラリが豊富でその領域でも利用されている。</li>
+<li>教育用にも利用されている</li>
+</ul>
+<p>転載: <a class="reference external" href="https://ja.wikipedia.org/wiki/Python">Wikipedia</a></p>
+</div>
+<div class="section" id="id18">
+<h2>Pythonの言語仕様の決め方<a class="headerlink" href="#id18" title="このヘッドラインへのパーマリンク">¶</a></h2>
+</div>
+<div class="section" id="pep">
+<h2>PEP<a class="headerlink" href="#pep" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p><a class="reference external" href="https://github.com/python/peps">PEP</a> はPython 拡張提案(Python Enhancement Proposal)の略語です。</p>
+<p>大きな変更が行われるときは、PEPという文書が書かれて議論されます。</p>
+<p>PEPについて詳しくは、 <a class="reference external" href="https://www.python.org/dev/peps/pep-0001/">PEP 1 -- PEP Purpose and Guidelines</a> に記載があります。</p>
+<p>また、 <a class="reference external" href="https://www.python.org/dev/peps/">PEP 0 -- Index of Python Enhancement Proposals (PEPs)</a> を参照すると、PEPの歴史を一覧で参照できます。</p>
+</div>
+<div class="section" id="id20">
+<h2>PEPの種類<a class="headerlink" href="#id20" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<div class="section" id="standards-track">
+<h3>Standards Track(標準化過程)<a class="headerlink" href="#standards-track" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<p>Pythonの新しい機能や実装について説明するドキュメント</p>
+</div>
+<div class="section" id="informational">
+<h3>Informational(情報)<a class="headerlink" href="#informational" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<p>Pythonの設計上の課題や、Pythonコミュニティに知らせる一般的なガイドラインや情報などを説明するドキュメント</p>
+</div>
+<div class="section" id="process">
+<h3>Process(プロセス)<a class="headerlink" href="#process" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<p>Pythonを取り巻くプロセスについて説明をしたり、プロセスや、プロセス中のイベントについて提案したりするドキュメント</p>
+</div>
+</div>
+<div class="section" id="id21">
+<h2>PEPワークフロー<a class="headerlink" href="#id21" title="このヘッドラインへのパーマリンク">¶</a></h2>
+</div>
+<div class="section" id="id22">
+<h2>アイデア<a class="headerlink" href="#id22" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>Pythonの言語に関するアイデアは特定のメーリングリスト( <a class="reference external" href="mailto:python-ideas&#37;&#52;&#48;python&#46;org">python-ideas<span>&#64;</span>python<span>&#46;</span>org</a> 、<a class="reference external" href="mailto:python-list&#37;&#52;&#48;python&#46;org">python-list<span>&#64;</span>python<span>&#46;</span>org</a>)や <a class="reference external" href="https://www.python.org/community/sigs/">SIG's</a> などで議論されている。</p>
+<p>アイデアを思いついたら、メーリングリストやSIG'sに投げて議論します。</p>
+</div>
+<div class="section" id="draft">
+<h2>Draft(草案)<a class="headerlink" href="#draft" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>PEP編集者が承認するとPEP番号が割り当てられます。ステータスは&quot;Draft&quot;(草案)になります。</p>
+</div>
+<div class="section" id="accepted-rejected">
+<h2>Accepted（受理）、Rejected（却下）<a class="headerlink" href="#accepted-rejected" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>グイドや、彼が選んだコンサルタントにレビューされて、&quot;Accepted&quot;（受理）、&quot;Rejected&quot;（却下）、差し戻しになります。</p>
+<p>PEPのドラフトの最終決裁者は、BDFL(慈悲深き終身独裁者, グイドさんのこと)です。</p>
+<p>忙しいときは他の人にBDFLの権利を移譲したりします。</p>
+<p>参照: <a class="reference external" href="https://mail.python.org/pipermail/python-dev/2017-December/151054.html">https://mail.python.org/pipermail/python-dev/2017-December/151054.html</a></p>
+<div class="topic">
+<p class="topic-title first">例</p>
+<p>Reminder: INADA Naoki was nominated as the BDFL-Delegate.
+「稲田さん, 代わりによろしく」</p>
+</div>
+</div>
+<div class="section" id="final">
+<h2>Final（確定）<a class="headerlink" href="#final" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>承認されて、 <a class="reference external" href="https://ja.wikipedia.org/wiki/%E3%83%AA%E3%83%95%E3%82%A1%E3%83%AC%E3%83%B3%E3%82%B9%E5%AE%9F%E8%A3%85">リファレンス実装（Reference implementation）</a> が完成し、main source code repositoryに取り込まれたら、&quot;Final&quot;（確定）になります。</p>
+</div>
+<div class="section" id="id23">
+<h2>PEPのステータスの移行可能な経路<a class="headerlink" href="#id23" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>流れはこんな感じだそうですが、違う場合もあるそうです。</p>
+<img alt="_images/pep_image.png" src="_images/pep_image.png" />
+<p>図は、 <a class="reference external" href="https://www.python.org/dev/peps/pep-0001/">PEP1</a> より参照。</p>
+<p>Deferred（延期）、Withdrawn（取り下げ）、Active（完成させることを意図していない。PEP1など）などに設定されることもあります。</p>
+</div>
+<div class="section" id="id24">
+<h2>日本人のPEPへの貢献<a class="headerlink" href="#id24" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>日本人にもPEPを作り確定した方がいらっしゃいます。</p>
+<ul class="simple">
+<li><a class="reference external" href="https://twitter.com/atsuoishimoto">Atsuo Ishimoto</a> さんの <a class="reference external" href="https://www.python.org/dev/peps/pep-3138/">PEP 3138 -- String representation in Python 3000</a></li>
+<li><a class="reference external" href="https://twitter.com/methane">INADA Naoki</a> さんの <a class="reference external" href="https://www.python.org/dev/peps/pep-0545/">PEP 545 -- Python Documentation Translations</a></li>
+</ul>
+</div>
+<div class="section" id="id25">
+<h2>さいごに<a class="headerlink" href="#id25" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>私もこの発表のためにPEPを読みました。</p>
+<p>これまでは、Pythonコードのコーディング規約が定めてある <a class="reference external" href="https://www.python.org/dev/peps/pep-0008/">PEP8</a> しか読んだことがなかったので、これからはもうちょっと読んでいこうと思います。</p>
+<p>また、<a class="reference external" href="https://twitter.com/methane">INADA Naoki</a> さんが、定期的に <a class="reference external" href="http://dsas.blog.klab.org/archives/2018-04/python-dev.html">最近のPython</a> として、PEPの変更点などを紹介してくれています。</p>
+<p>この資料をレビューしてくださった、<a class="reference external" href="https://twitter.com/atsuoishimoto">Atsuo Ishimoto</a> さん、 <a class="reference external" href="https://twitter.com/cocoatomo">tomo</a> さん、ありがとうございます。</p>
+</div>
+<div class="section" id="id30">
+<h2>リンク一覧<a class="headerlink" href="#id30" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li>PSF: <a class="reference external" href="https://www.python.org/psf/">https://www.python.org/psf/</a></li>
+<li>PEP: <a class="reference external" href="https://github.com/python/peps">https://github.com/python/peps</a></li>
+<li>最近のPython: <a class="reference external" href="http://dsas.blog.klab.org/archives/2018-04/python-dev.html">http://dsas.blog.klab.org/archives/2018-04/python-dev.html</a></li>
+</ul>
+<div class="section" id="twitter">
+<h3>Twitter<a class="headerlink" href="#twitter" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<ul class="simple">
+<li>INADA Naoki(&#64;methane): <a class="reference external" href="https://twitter.com/methane">https://twitter.com/methane</a></li>
+<li>Atsuo Ishimoto(&#64;atsuoishimoto): <a class="reference external" href="https://twitter.com/atsuoishimoto">https://twitter.com/atsuoishimoto</a></li>
+<li>tomo(&#64;cocoatomo): <a class="reference external" href="https://twitter.com/cocoatomo">https://twitter.com/cocoatomo</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+
+  <div id="help">
+      Use the left and right arrow keys or click the left and right
+      edges of the page to navigate between slides.<br>
+      (Press 'H' or navigate to hide this message.)
+  </div>
+  </body>
+  <script type="text/javascript" src="_static/js/initialize.js"></script>
+  <script type="text/javascript" src="_static/js/slides.js"></script>
+</html>
