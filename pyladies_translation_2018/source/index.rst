@@ -1,14 +1,9 @@
 ===========================================================================
-Sphinxからpoファイル作ってTransifexで翻訳してから、Sphinxに戻した話
+PyLadies ハンドブックをSphinxとTransifexで翻訳した話
 ===========================================================================
 
 | Kameko Ohmura
 | https://github.com/okusama27
-
-OverView
-==============
-* お前誰よ
-* PyLadies Tokyo 3周年パーティー以降のこと
 
 お前誰よ
 ============================
@@ -103,13 +98,14 @@ PyCon JP 2018のコミュティーポスター
 ---------------------------------------------------------
 沢山の人と出会えました。ありがとうございます！
 
-.. image:: _static/images/image04.png
+.. image:: _static/images/image04.png\
+   :height: 500px
 
 
 Sphinxからpoファイル作ってTransifexで翻訳してから、Sphinxに戻した話
 ===========================================================================
 pyladies-kit
-=================
+=======================
 PyLadies 本部に、どの地域でもPyLadiesを始められるように `pyladies-kit <https://github.com/pyladies/pyladies-kit>`_ が用意されています。
 
 .. code-block:: bash
