@@ -32,6 +32,12 @@ Sphinxインストール
   html_theme = 'gopher'
   html_use_index = False
 
+プロジェクトの作成
+---------------------------
+
+.. code-block::
+
+   $sphinx-quickstart プロジェクト名
 
 make
 ----------
