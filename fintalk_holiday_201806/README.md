@@ -1,17 +1,5 @@
-![page1](./financial_statements_3_.001.png)
-![page2](./financial_statements_3_.002.png)
-![page3](./financial_statements_3_.003.png)
-![page4](./financial_statements_3_.004.png)
-![page5](./financial_statements_3_.005.png)
-![page6](./financial_statements_3_.006.png)
-![page7](./financial_statements_3_.007.png)
-![page8](./financial_statements_3_.008.png)
-![page9](./financial_statements_3_.009.png)
-![page10](./financial_statements_3_.010.png)
-![page11](./financial_statements_3_.011.png)
-![page12](./financial_statements_3_.012.png)
-![page13](./financial_statements_3_.013.png)
-![page14](./financial_statements_3_.014.png)
-![page15](./financial_statements_3_.015.png)
-![page16](./financial_statements_3_.016.png)
-![page17](./financial_statements_3_.017.png)
+移動しました
+-------------------
+
+`fintalk_holiday/201806 <https://github.com/okusama27/fintalk_holiday/tree/master/201806>`_ 
+
