@@ -11,9 +11,10 @@ SphinxCon JP 2018で話す内容
 話す内容
 ------------
 
+- 自己紹介
 - SphinxでPyQのドキュメントを運営して早２年半
 
   - 困ったときにSphinxコミュニティーに助けてもらった話
 
 - PyLadies handbookの翻訳をSphinx と Transifix使って翻訳した話
-
+- Sphinxの使い方紹介
