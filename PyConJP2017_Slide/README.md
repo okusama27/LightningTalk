@@ -1,6 +1,9 @@
 # PyConJP2017_Slide
 PyConJP2017の補欠になったのでスライドの準備
 
+## スライド
+https://okusama27.github.io/kame_slides/pyconjp2017/index.html
+
 ## タイトル
 はじめてのPython学習でつまずいてしまうところ
 

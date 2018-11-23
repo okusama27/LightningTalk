@@ -18,3 +18,8 @@ SphinxCon JP 2018で話す内容
 
 - PyLadies handbookの翻訳をSphinx と Transifix使って翻訳した話
 - Sphinxの使い方紹介
+
+
+スライド
+-------------
+https://okusama27.github.io/kame_slides/sphinxcon2018/index.html

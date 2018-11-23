@@ -44,12 +44,12 @@
 
 |
 
-.. image:: images/logo_beproud.png
+.. image:: _static/images/logo_beproud.png
    :width: 200px
    :alt: BeProudロゴ
 
 
-.. image:: images/logo_large.png
+.. image:: _static/images/logo_large.png
    :width: 150px
    :alt: PyQロゴ
 
@@ -66,7 +66,7 @@ Pythonのプログラミングができる環境
 素直に自分のパソコンにプログラミングできる環境を作ることがオススメ。
 書籍などを見て頑張って作りましょう。
 
-.. image:: images/ichiyasa.png
+.. image:: _static/images/ichiyasa.png
     :width: 200px
     :alt: いちばんやさしいPythonの教本
 
@@ -234,7 +234,7 @@ End of lineの略。ファイルの最後まで文字列でした。
 
 誕生日が1987年9月8日の場合:
 
-.. figure:: images/pyconjp2017_01.png
+.. figure:: _static/images/pyconjp2017_01.png
     :width: 400px
 
 
@@ -314,7 +314,7 @@ End of lineの略。ファイルの最後まで文字列でした。
 
 `Python Tutor <http://www.pythontutor.com/>`_ などを使うとさらにわかりやすい
 
-.. figure:: images/pyconjp2017_02.png
+.. figure:: _static/images/pyconjp2017_02.png
     :width: 600px
 
 集計しよう
