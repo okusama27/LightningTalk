@@ -14,23 +14,10 @@ Sphinxからpoファイル作ってTransifexで翻訳してから、Sphinxに戻
 - 私とSphinx
 - PyQの紹介
 
-============================
+.. include:: whoami.rst
 
-Kameko Ohmura（ `@okusama27 <https://twitter.com/okusama27>`_ ）
+.. include:: pyladies.rst
 
-.. image:: _static/images/cow.png
-   :width: 80px
-
-A Staff of PyLadies Tokyo from April 2017
-
-.. image:: _static/images/pyladies_logo.png
-   :width: 120px
-
-
-Working at BeProud and eveloping Python learning service called PyQ
-
-.. image:: _static/images/bp_logs.png
-   :width: 80%
 
 
 2017年11月
