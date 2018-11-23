@@ -8,3 +8,6 @@ PyLadiesには、`PyLadies Organizer Handbook <http://kit.pyladies.com/>`_ と�
 
 このやり方と経過を発表するLTです。
 
+スライド
+-------------
+https://okusama27.github.io/kame_slides/pyladies04/index.html

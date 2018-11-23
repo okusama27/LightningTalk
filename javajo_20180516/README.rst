@@ -35,3 +35,7 @@ README
 タイトル
 -------------
 広がるPython
+
+スライド
+-------------
+https://okusama27.github.io/kame_slides/javajo_20180516/index.html
