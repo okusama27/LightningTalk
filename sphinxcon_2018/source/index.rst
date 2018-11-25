@@ -14,9 +14,45 @@ Sphinxからpoファイル作ってTransifexで翻訳してから、Sphinxに戻
 - 私とSphinx
 - PyQの紹介
 
+
+.. 自己紹介
+
 .. include:: whoami.rst
 
+.. PyLaides Tokyo紹介
+
 .. include:: pyladies.rst
+
+.. PyLadies Handbookの紹介
+
+.. include:: pyladies_handbook.rst
+
+.. 翻訳しNight発足
+
+.. include:: pyladies_translatin_night.rst
+
+.. 最初のやり方紹介
+
+.. Transifex勧められた話
+
+..
+
+   SphinxからTransifex経由の翻訳の概要
+   図で表す（以後、どこをやっているかの図を挟んでいく）
+
+.. 元ファイルからpoファイルの作成
+
+.. Transifexで翻訳
+
+.. 戻す
+
+.. おまけ
+
+.. 私とSphinx
+
+.. 私のブログもSphinx
+
+.. PyQのdocsもSphinx
 
 
 
@@ -24,19 +60,6 @@ Sphinxからpoファイル作ってTransifexで翻訳してから、Sphinxに戻
 
 Sphinxからpoファイル作ってTransifexで翻訳してから、Sphinxに戻した話
 ===========================================================================
-pyladies-kit
-=======================
-PyLadies 本部に、どの地域でもPyLadiesを始められるように `pyladies-kit <https://github.com/pyladies/pyladies-kit>`_ が用意されています。
-
-.. code-block:: bash
-   :linenos:
-
-   $ pip install pyladies
-   $ pyladies handbook
-
-これを **翻訳して、本家に取り込んでもらおう!** という目標のもと始まりました。
-
-まず、第１段階として **行動規範** と、 **ハラスメントを受けた場合の対処法** の部分をPyCon JP 2018までに翻訳する事になりました。
 
 
 Sphinxが便利すぎる
