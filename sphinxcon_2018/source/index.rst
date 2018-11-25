@@ -1,78 +1,136 @@
 ============================================================================================
-Sphinxからpoファイル作ってTransifexで翻訳してから、Sphinxに戻した話
+Sphinx製ドキュメントの日本語化
 ============================================================================================
 
+| Sphinxからpoファイル作ってTransifexで翻訳してから、Sphinxに戻した話
+
 | Kameko Ohmura
-| https://github.com/okusama27
 
-アジェンダ
+今日話すこと
 ===============
-- 自己紹介
-- PyLadies Tokyoの紹介
-- 翻訳しNightの紹介
-- Sphinxからpoファイル作ってTransifexで翻訳してから、Sphinxに戻した話
-- 私とSphinx
-- PyQの紹介
+
+＊　自己紹介
+-----------------------
+
+＊　PyLadies Tokyo
+-----------------------
+
+＊　翻訳した話
+-----------------------
+
+＊　おまけ
+-----------------------
 
 
-.. 自己紹介
+自己紹介
+============================
 
-.. include:: whoami.rst
-
-.. PyLaides Tokyo紹介
-
-.. include:: pyladies.rst
-
-.. PyLadies Handbookの紹介
-
-.. include:: pyladies_handbook.rst
-
-.. 翻訳しNight発足
-
-.. include:: pyladies_translatin_night.rst
-
-.. 最初のやり方紹介
-
-.. Transifex勧められた話
-
-..
-
-   SphinxからTransifex経由の翻訳の概要
-   図で表す（以後、どこをやっているかの図を挟んでいく）
-
-.. 元ファイルからpoファイルの作成
-
-.. Transifexで翻訳
-
-.. 戻す
-
-.. おまけ
-
-.. 私とSphinx
-
-.. 私のブログもSphinx
-
-.. PyQのdocsもSphinx
+.. image:: _static/images/whoami.png
+   :align: left
 
 
 
+PyLadies Tokyo とは
+===========================================
+
+PyLadiesは，Pythonが好きな女性を結ぶ国際的なコミュニティです。
+
+Pythonが好きであれば初心者／熟練者問わずどなたでも参加できます。
+
+PyLadies Tokyoは,PyLadiesの東京支部として女性Pythonistaを繋ぐために活動しています。
+
+.. image:: _static/images/pyladies_logo.png
+
+参加者募集中！
+------------------
+
+詳しくは、https://pyladiestokyo.github.io/ を御覧ください。
 
 
-Sphinxからpoファイル作ってTransifexで翻訳してから、Sphinxに戻した話
-===========================================================================
+PyLadies Handbook
+=======================================
+
+本家PyLadiesにPyLadiesのハンドブック `PyLadies Handbook <http://kit.pyladies.com/>`_ があります。
+
+.. image:: _static/images/pyladies_handbook_1.png
+
+書いてあること
+=======================================
+
+- ローカルPyLadiesの作り方
+- PyLadiesの運営方法
+- 誰が参加できるかなど
+- PyLadiesの行動規範
+- ロゴなどの権利
+
+pip
+---------
+
+pipでインストールできます。
+
+.. code-block:: bash
+   :linenos:
+
+   $ pip install pyladies
+   $ pyladies handbook
 
 
-Sphinxが便利すぎる
-===========================================================================
-本家のハンドブックがSphinxプロジェクトなので、簡単に翻訳できます。
+翻訳プロジェクト発足
+=======================================
 
-.. image:: _static/images/image05.png
+特に本家のページはもちろん英語ですが、メンバーやこれから参加を考えている人にも読んでほしいと思い、翻訳を開始しました。
+最終的には **翻訳して、本家に取り込んでもらう** のが目標です。
 
-poファイルって見にくい
-===========================================================================
+まず、第１段階として **行動規範** と、 **ハラスメントを受けた場合の対処法** の部分をPyCon JP 2018までに翻訳しました。
+
+翻訳しNight!
+==================
+
+翻訳しNightというイベントを開いてみんなで翻訳することにしました。
+
+.. image:: _static/images/pyladies_translatin_night_1.png
+
+最初のやり方
+===================
+- GitHubにリポジトリを作る
+- 本家の英文をコピー（本家、rstなのにmdにコピー）
+- issueで範囲、担当を指定
+- 英文の真下に1行ずつ日本語を書いて、担当ページが終わったらPRを作る
+- PR上でレビューと修正を行う
+
+.. image:: _static/images/pyladies_translatin_night_2.png
 
 
-生のpoファイル
+問題点
+==========================
+
+戻す時どうするの？
+-----------------------
+
+レビューがやりづらい
+-----------------------
+
+GitHub使えない人が参加しにくい
+-----------------------------------
+
+相談
+============
+メンバーの一人がSphinx ユーザーグループに相談しました。
+
+.. image:: _static/images/pyladies_translatin_night_3.png
+
+
+あまり翻訳が進んでなかったのであっさりTransifexを使うことに決定！！
+
+翻訳機能
+===============
+Sphinxを使うとドキュメントの多言語化が容易にできます。
+
+``po`` ファイルを作って、訳文を書くと言語によって入れ替えて表示してくれます。
+
+生poファイル見づらい問題
+--------------------------------
+
 ::
 
    # 283ad006df7242c59abb816f7d85b03f
@@ -90,54 +148,141 @@ poファイルって見にくい
    "social gatherings."
    msgstr ""  ←ここに翻訳を書く
 
-   # 3eeae7895cb74421a96d163b715a0835
-   #: ../../about.rst:8
-   msgid ""
-   "PyLadies also aims to provide a friendly support network for women and a "
-   "bridge to the larger Python world. Anyone with an interest in Python is "
-   "encouraged to participate!"
-   msgstr ""  ←ここに翻訳を書く
-
-Transifexが便利すぎる
-===========================================================================
-
-.. image:: _static/images/image06.png
 
 
-目標達成
-===========================================================================
+
+Transifexで翻訳
+=======================================
+
+本家のGitHubからpyladies-kitを取得（clone）
+=======================================================
+
+.. image:: _static/images/pyladies_transifex_1.png
+
+
+準備
+=======================================================
+
+Sphinxをインストール
+--------------------------------
+
+::
+
+   $ pip install Sphinx
+   $ pip install sphinx-intl
+
+
+docs/ に移動
+--------------------------------
+
+conf.pyのファイルの最後に追加
+--------------------------------
+
+::
+
+   locale_dirs = ["locale"]
+   language = "ja"
+
+
+potファイルを作成するコマンドを実行
+----------------------------------------------------------------
+
+::
+
+   $ make gettext
+
+
+``_build/locale`` の下に ``*.pot`` ファイルができている
+
+
+potファイルからpoファイルを作る
+----------------------------------------------------------------
+
+::
+
+   $ sphinx-intl update -p _build/locale -l de -l ja
+
+
+Tansifex
+==================
+
+プロジェクトを作成
+---------------------------
+
+poファイルを追加
+-------------------------
+
+.. image:: _static/images/pyladies_transifex_2.png
+
+
+翻訳する
+=============================================================
+
+左側の英文を選んで、翻訳を右側に書くだけ。レビューも同じ画面でできる。コメントも付けられる。
+
+.. image:: _static/images/pyladies_transifex_3.png
+   :width: 650px
+
+詳しくは、 `翻訳とレビュー <https://github.com/PyLadiesTokyo/pyladies-handbook-translation/blob/master/how_to/how_to_translate.md>`_ で解説
+
+
+翻訳後のファイルを日本語版ドキュメントファイルに戻す
+=============================================================
+
+locale/ja/LC_MESSAGES/ に翻訳したpoファイルを戻す
+-----------------------------------------------------------------
+
+htmlファイルを作成する
+-------------------------------------------
+
+::
+
+   $ make -e html
+
+完成
+================
 
 目標の **行動規範** と、 **ハラスメントを受けた場合の対処法** の部分の翻訳は終了しました。
 
-.. image:: _static/images/image07.png
-   :height: 450px
-
 https://pyladiestokyo.github.io/coc/index.html
 
-みんなありがとう！！
-===========================================================================
-
-延べ約30人の翻訳者の方！
----------------------------------------------------------
-
-使い方を教えてくださったSphinxコミュティーの方！
------------------------------------------------------------------------------
+.. image:: _static/images/pyladies_transifex_4.png
 
 
-これからもハンドブックの翻訳は続けていきますので、興味がある方は Slackの **#handbook-translation** まで！
 
-また、ハラスメントを受けた方は、スタッフにダイレクトメッセージを送るか、Slackの **#pyladies-support** まで！
+おまけ
+===================
 
-あと、 **2018年11月28日** に **SphinxCon JP 2018** が開催されます。connpassで募集してました。私も行くので、一緒に行きましょう！！
+私とSphinx
+========================
 
-これからもPyLadies Tokyoをよろしくおねがいします！
-===========================================================================
+**Sphinx歴3年半＝会社歴**
 
-いつでも参加をおまちしています。
+会社のドキュメント類（Redmineなど）が ``reStructuredText`` を利用していたので初めて使いました。
 
-スタッフ募集中です。
+それまでは、 ``Markdown`` を使っていました。
 
-講師（女性）も募集中です。こんなことなら、話せるかも！などありましたらスタッフに声をかけてください！
+- 2015: ビープラウド入社。reStructuredTextに出会う。
+- 2016: ブログをSphinxに移行。ただし、Markdownで表記
+- 2017: PyQリリース。ドキュメントをSphinxで作成
+- 2018: ブログをSphinxに移行（2回目） ``reStructuredText`` のみで記述
 
-.. image:: _static/images/pyladies_logo.png
-   :width: 400px
+
+docs.pyq.jp
+====================
+
+| 　
+
+.. image:: _static/images/omake2.png
+
+鉄は熱いうちに打て
+====================
+
+| 　
+
+
+.. image:: _static/images/omake1.png
+
+| 　
+
+フォーマットなどはこれからがんばります。
