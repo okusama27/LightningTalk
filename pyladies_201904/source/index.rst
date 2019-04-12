@@ -30,7 +30,7 @@ Python 3.7.0を使います。もっと古くても大丈夫。でも、Python2�
    $ python -V
 
 
-.. important:: macOSの人は3をつけてみよう。
+.. important:: macOSの人は、3をつけてみよう。
 
    $ python3 -V
 
