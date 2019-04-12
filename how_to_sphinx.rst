@@ -9,6 +9,14 @@ Sphinxインストール
 
   $ pip install sphinx
 
+プロジェクトの作成
+-------------------------
+
+.. code-block::
+
+  $ sphinx-quickstart
+
+
 
 テーマ
 ---------
