@@ -9,7 +9,6 @@ def show_pyramid(num):
 
 def main():
     show_pyramid(10)
-
     show_pyrami(-10)
 
 
