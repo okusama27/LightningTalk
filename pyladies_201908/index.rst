@@ -2,6 +2,8 @@
 PEPの紹介
 =====================================
 
+2019-08-18
+
 本資料は、 
 `PyLadies Tokyo Meetup #44 夏休み! PEP自由研究発表会 <https://pyladies-tokyo.connpass.com/event/136599/>`_ の資料です。
 
@@ -73,15 +75,25 @@ Pythonについて大きな変更が行われるときは、PEPという文書�
 
 PEPの利用方法、書き方などの運用のプロセスも PEPとしてまとまっています。
 
-PEPについて詳しくは、 `PEP 1 -- PEP Purpose and Guidelines <https://www.python.org/dev/peps/pep-0001/>`_ に記載があります。
+PEPについて詳しくは、 に記載があります。
 
 .. 和訳 `Python Enhancement Proposal: 1 <http://sphinx-users.jp/articles/pep1.html>`_
 
 また、 `PEP 0 -- Index of Python Enhancement Proposals (PEPs) <https://www.python.org/dev/peps/>`_ を参照すると、PEPの歴史を一覧で参照できます。
 
 
+PEP 1 -- PEPの目的とガイドライン
+====================================================
+`PEP 1 -- PEP Purpose and Guidelines <https://www.python.org/dev/peps/pep-0001/>`_ の紹介をします。
+
+PEPの対象者
+--------------------------
+PEPの主な対象者は、Python言語の実装者です。
+
+
 PEPの種類
 -------------
+PEPには以下の3つの種類のドキュメントがあります。
 
 Standards Track(標準化過程)
 ++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -99,6 +111,24 @@ Pythonを取り巻くプロセスについて説明をしたり、プロセス�
 
 PEPワークフロー
 --------------------------
+PEPの作成からの流れを紹介します。
+
+Pythonの運営委員会
++++++++++++++++++++++++++++
+PEPを受け入れるか拒否するかを最終的に決めるPythonの運営委員会があります。詳しくは、 `PEP13 <https://www.python.org/dev/peps/pep-0013/#current-steering-council>`_ で説明されています。
+
+現在は以下の５人の人が投票で選ばれました。選出についての `PEP8100 <https://www.python.org/dev/peps/pep-8100/>`_ もあります。
+
+* Barry Warsaw
+* Brett Cannon
+* Carol Willing
+* Guido van Rossum
+* Nick Coghlan
+
+Pythonの生みの親であるGuidoさんも選挙に参加しています。投票はアクティブなPythonコアの開発者が行います。
+
+以前は、GuidoさんがBDFL(慈悲深き終身独裁者）として決めていましたが、2018年7月にBDFLから引退しました。
+
 
 アイデア
 ++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -107,24 +137,22 @@ Pythonの言語に関するアイデアは特定のメーリングリスト( pyt
 
 アイデアを思いついたら、メーリングリストやSIG'sに投げて議論します。
 
+PEPの提出
+++++++++++++++++++
+議論後、PEPを提出します。PEP作成者がコア開発者でない場合は、コア開発スポンサーを見つける必要があります。コア開発スポンサーは、PEP作成者をメンターとして支援します。
+
+PEPの提出準備ができたら、PEPのDraftとして、GitHubのプルリクエストを作成します。PEPの書き方（ `PEP12 <https://www.python.org/dev/peps/pep-0012/>`_ ）を守って記述します。
+書き方を守らないと却下されます（ちょっとした不具合はPEP編集者が直してくれる場合もあります）。
+
 Draft(草案)
 ++++++++++++++++++++++++++++++++++++++++++++++++++
 PEP編集者が承認するとPEP番号が割り当てられます。ステータスは"Draft"(草案)になります。
 
 Accepted（受理）、Rejected（却下）
 ++++++++++++++++++++++++++++++++++++++++++++++++++
-グイドや、彼が選んだコンサルタントにレビューされて、"Accepted"（受理）、"Rejected"（却下）、差し戻しになります。
-
-PEPのドラフトの最終決裁者は、BDFL(慈悲深き終身独裁者, グイドさんのこと)です。
-
-忙しいときは他の人にBDFLの権利を移譲したりします。
-
-参照: https://mail.python.org/pipermail/python-dev/2017-December/151054.html
-
-.. topic:: 例
-
-   Reminder: INADA Naoki was nominated as the BDFL-Delegate.
-   「稲田さん, 代わりによろしく」
+PEPができたら、コア開発者にレビューを要求できます。
+最終的に運営委員会が受理か、却下を行います。
+そのPEPの最終決定を行うのにふさわしい経験があるコア開発者が申し出れば、BDFLの権利を移譲したりします。
 
 Final（確定）
 ++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -142,8 +170,15 @@ PEPのステータスの移行可能な経路
 
 Deferred（延期）、Withdrawn（取り下げ）、Active（完成させることを意図していない。PEP1など）などに設定されることもあります。
 
+PEPを読もう
+========================
+新しいPythonに採用されたPEPがわかります。
+
+例. `Python3.8 <https://docs.python.org/3.8/>`_ の「What’s New In Python 3.8」をクリックすると追加させた機能などが見れます。
+
 参考資料
 =====================================
+
 日本人のPEPへの貢献
 ---------------------------------
 日本人にもPEPを作り確定した方がいらっしゃいます。
@@ -160,10 +195,3 @@ Deferred（延期）、Withdrawn（取り下げ）、Active（完成させるこ
 * PSF: https://www.python.org/psf/
 * PEP: https://github.com/python/peps
 * 最近のPython: http://dsas.blog.klab.org/archives/2018-04/python-dev.html
-
-
-=====================================
-=====================================
-=====================================
-=====================================
-=====================================
