@@ -24,4 +24,5 @@ Sphinxで発表資料を作る
 - `PyLadies Tokyo 4周年パーティー LT <./pyladies_translation_2018/source/index.rst>`_
 - `PyCon JP 2017 補欠用資料 <./PyConJP2017_Slide/contents/source/index.rst>`_
 - `【東京】【女性/女性同伴男性限定】言語不問! 各言語の思想や成り立ちを知ろう&女性エンジニアについて考えようの会 #javajo  <./javajo_20180516/README.rst>`_
-- `SphinxCon JP 2018 発表 <>`_
+- `SphinxCon JP 2018 発表 <https://okusama27.github.io/kame_slides/sphinxcon2018/index.html#1>`_
+- `Fintalk Holiday 201806 担当 <https://github.com/okusama27/fintalk_holiday/tree/master/201806>`_
