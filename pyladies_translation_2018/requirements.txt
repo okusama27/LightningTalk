@@ -1,9 +1,9 @@
 alabaster==0.7.12
 Babel==2.9.1
-certifi==2018.10.15
+certifi==2024.7.4
 chardet==3.0.4
 docutils==0.14
-idna==2.7
+idna==3.7
 imagesize==1.1.0
 Jinja2==2.10
 MarkupSafe==1.1.0
@@ -17,4 +17,4 @@ snowballstemmer==1.2.1
 Sphinx==1.8.2
 sphinxcontrib-websupport==1.1.0
 sphinxjp.themes.gopher==0.2.2
-urllib3==1.25.3
+urllib3==1.26.19
